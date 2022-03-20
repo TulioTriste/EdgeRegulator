@@ -1,0 +1,5 @@
+main: me.tulio.edgeregulator.Main
+name: ReguladorDeFilos
+version: 1.0
+authors: [ TulioTriste ]
+depend: [ WorldGuard ]

@@ -1,0 +1,15 @@
+ZONAS_FILOS: # Para añadir otra por favor sigue el formato de poner primero el nombre de la region los 2 puntos (:) y luego desde que filo en adelante ya no podrán ingresar
+  - "pvp:3"
+  - "test:10"
+
+DONT_JOIN_MESSAGE: # Variables: %filo% (Este es el filo hasta el que se puede entrar, el ejemplo claro es el del mensaje, si quieres el número desde el que no se puede ingresar dímelo [no lo vi necesario]), %region%
+  - "&7&m----------------------------------------------------"
+  - "&7- &c¡No puedes entrar a esta zona con un filo superior a %filo%!"
+  - "&7- &c¡sacala de tu inventario para poder entrar!"
+  - "&7&m----------------------------------------------------"
+
+DONT_DAMAGE_MESSAGE:  # Variables: %filo%, %region%
+  - "&7&m----------------------------------------------------"
+  - "&7- &c¡No puedes hacer daño a jugadores en la region %region%!"
+  - "&7- &c¡con un filo superior a %filo%!"
+  - "&7&m----------------------------------------------------"
